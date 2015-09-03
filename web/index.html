@@ -1,0 +1,356 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://maps.googleapis.com/maps/api/js"></script><script src="javascript/maps.js" type="text/javascript"></script><script src="javascript/manageDetails.js" type="text/javascript"></script><script src="javascript/filter.js" type="text/javascript"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendario eventi Romagna</title>
+</head>
+<body>
+<div id="container">
+<a href="index.html">
+<header id="title">
+<img src="imgs/caveja.png" alt="Caveja"><h1>Eventi in Romagna</h1>
+</header>
+</a>
+<aside id="right">
+<form method="GET" action="">
+<div id="place-filter">
+<h2>Dove andiamo?</h2>
+<ul>
+<li>
+<input type="checkbox" name="district" value="FC">Forli-Cesena</input>
+</li>
+<li>
+<input type="checkbox" name="district" value="RA">Ravenna</input>
+</li>
+<li>
+<input type="checkbox" name="district" value="RN">Rimini</input>
+</li>
+</ul>
+</div>
+<div id="date-filter">
+<h2>Quando andiamo?</h2>
+<p>Dal <input type="date">
+</p>
+<p>Al <input type="date">
+</p>
+</div>
+<div id="do-filter">
+<h2>Cosa facciamo?</h2>
+<ul>
+<li>
+<input type="checkbox" name="type" value="Concerto">Concerto</input>
+</li>
+<li>
+<input type="checkbox" name="type" value="Conferenza">Conferenza</input>
+</li>
+<li>
+<input type="checkbox" name="type" value="Fiera">Fiera</input>
+</li>
+<li>
+<input type="checkbox" name="type" value="Mostra">Mostra</input>
+</li>
+<li>
+<input type="checkbox" name="type" value="Sagra">Sagra</input>
+</li>
+<li>
+<input type="checkbox" name="type" value="Spettacolo">Spettacolo</input>
+</li>
+</ul>
+</div>
+<input type="submit" value="Applica filtri" id="apply">
+</form>
+<a id="noFilter" onclick="location.reload(true);">Elimina filtri</a>
+</aside>
+<div id="left">
+<nav id="menu">
+<a id="date-sort" href="eventsDateDesc.html">Ordina per data</a><a id="groupby-city" href="groupByCity.html">Raggruppa per citta</a><a id="groupby-type" href="groupByType.html">Raggruppa per tipo</a>
+</nav>
+<section>
+<article class="RA Concerto" id="1_2015-07-31_2015-07-31">
+<div class="image">
+<img src="http://www.linea77.com/wp-content/uploads/2014/02/Linea77-940x470.jpg" alt="http://www.linea77.com/wp-content/uploads/2014/02/Linea77-940x470.jpg"></div>
+<div class="info-event">
+<h3>Linea 77 in concerto</h3>
+<p class="type">Concerto</p>
+<p class="date">
+<span class="date-start">31/07/2015</span><span class="date-end"> - 
+                                                31/07/2015</span>
+</p>
+<p class="place">Ravenna  
+                                            (RA)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail1','showDetail1'); initialize('44.421875','12.229149','map1');" id="showDetail1">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail1">
+<div class="map" id="map1"></div>
+<p>
+<span class="bold">Ora di inizio: </span>21:00</p>
+<p>
+<span class="bold">Indirizzo: </span>Viale Europa, 1</p>
+<p>
+            I Linea 77 sono un gruppo musicale alternative metal italiano, formatosi nel 1993 a Venaria Reale (Torino).
+            La loro musica &egrave; fortemente influenzata da quella di famosi gruppi statunitensi quali Deftones, Rage Against the Machine e Helmet.
+        </p>
+<a class="webSite" href="http://www.linea77.com/">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail1','detail1')" id="hideDetail1">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="RN Spettacolo" id="2_2015-08-29_2015-08-29">
+<div class="image">
+<img src="http://www.eventsromagna.com/uploads/immagine/2015/08/rimini-jamboree.jpg" alt="http://www.eventsromagna.com/uploads/immagine/2015/08/rimini-jamboree.jpg"></div>
+<div class="info-event">
+<h3>Rimini Jamboree</h3>
+<p class="type">Spettacolo</p>
+<p class="date">
+<span class="date-start">29/08/2015</span><span class="date-end"> - 
+                                                29/08/2015</span>
+</p>
+<p class="place">Rimini  
+                                            (RN)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail2','showDetail2'); initialize('44.0598555','12.5641589','map2');" id="showDetail2">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail2">
+<div class="map" id="map2"></div>
+<p>
+<span class="bold">Ora di inizio: </span>21:00</p>
+<p>
+<span class="bold">Indirizzo: </span>Piazza Malatesta, 1</p>
+<p>
+            Atti Matti, compagnia di improvvisazione teatrale, &egrave; lieta di presentare "Rimini Jamboree". Il 29 agosto a Castel Sismondo una serata dedicata agli anni 50' per uno spettacolo totalmente improvvisato. Una rievocazione unica nel suo genere e mai vista a Rimini, dove stile cultura arte e musica si mescolano per dare origine a una serata indimenticabile. 
+Come sempre il pubblico sar&agrave; parte integrante dello spettacolo regalandoci spunti e suggerimenti. 
+
+Special Gest della serata il gruppo Rockabilly &ldquo;Pepper Blondes&rdquo;, trio vocale femminile tutto riminese, che con la loro bravura e simpatia dar&agrave; il via al finale di serata con un concerto indimenticabile all&rsquo;insegna dei meravigliosi anni &rsquo;50. 
+La serata &egrave; a tema, &egrave; consigliabile un look anni 50'. Inoltre, AttiMatti ha indetto un concorso fotografico a premi, si potr&agrave; partecipare pubblicando una foto che ricordi i mitici anni sulla pagina dell'evento Facebook dedicato (https://www.facebook.com/events/1034906113194669/) 
+La foto che ricever&agrave; pi&ugrave; like vincer&agrave; uno dei premi messi in palio. 
+Maggiori informazioni sul sito: http://www.attimatti.it 
+Il costo della serata &egrave; di 10 euro, ricavato andr&agrave; in beneficenza alla Caritas.Inizio spettacolo ore 21:00 
+
+Attori: Federica Lucchese, Lara Bianconi, Fabio Magnani, Marco Mussoni, Sergio Sansone, Alessandro Lombardini, Elisabetta Incanti, Tommaso Bottalico, Marco Volanti.
+        </p>
+<a class="webSite" href="http://www.attimatti.it/rimini-jamboree/">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail2','detail2')" id="hideDetail2">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="RN Mostra" id="3_2015-08-28_2015-09-14">
+<div class="image">
+<img src="http://www.artevista.eu/arte-cultura/wp-content/uploads/2015/08/testa-di-vecchio-cailot.jpg" alt="http://www.artevista.eu/arte-cultura/wp-content/uploads/2015/08/testa-di-vecchio-cailot.jpg"></div>
+<div class="info-event">
+<h3>Ritratti e volti del passato</h3>
+<p class="type">Mostra</p>
+<p class="date">
+<span class="date-start">28/08/2015</span><span class="date-end"> - 
+                                                14/09/2015</span>
+</p>
+<p class="place">Rimini  
+                                            (RN)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail3','showDetail3'); initialize('44.060989','12.573314','map3');" id="showDetail3">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail3">
+<div class="map" id="map3"></div>
+<p>
+<span class="bold">Ora di inizio: </span>19:00</p>
+<p>
+<span class="bold">Indirizzo: </span>via Anfiteatro, 2</p>
+<p>
+            Inaugura venerd&igrave; 28 agosto la mostra: &lsquo;Ritratti e volti del passato&rsquo; al Pala de Andr&egrave; di Ravenna. Oltre sessanta dipinti, a partire dalla seconda met&agrave; XV secolo fino al XIX secolo, svelano l&rsquo;operato di artisti durante un arco vastissimo di tempo, circa 400 anni, ricco di conflitti ma anche di dibattiti e cambiamenti. Un&rsquo;interessante indagine sul &lsquo;ritratto&rsquo;, o meglio sulla &lsquo;cultura&rsquo; del ritrarre, dalla scuola di Caravaggio ai fiamminghi, dalla scuola romana a quella emiliana, dal ritratto francese al paesaggio veneto, tra gli altri.
+        </p>
+<a class="webSite" href="http://www.romagnagazzette.com/2015/08/26/ravenna-inaugura-la-mostra-ritratti-e-volti-del-passato-nella-mostra-palazzo-mauro-de-andre-oltre-sessanta-i-dipinti-ospitati/">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail3','detail3')" id="hideDetail3">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="FC Fiera" id="4_2016-06-07_2016-08-16">
+<div class="image">
+<img src="http://www.folug.org/wp-content/uploads/2012/05/WEB_FO12.jpg" alt="http://www.folug.org/wp-content/uploads/2012/05/WEB_FO12.jpg"></div>
+<div class="info-event">
+<h3>Fiera dell'elettronica a Forl&igrave;</h3>
+<p class="type">Fiera</p>
+<p class="date">
+<span class="date-start">07/06/2016</span><span class="date-end"> - 
+                                                16/08/2016</span>
+</p>
+<p class="place">Forl&igrave;  
+                                            (FC)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail4','showDetail4'); initialize('44.2418822','12.0784182','map4');" id="showDetail4">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail4">
+<div class="map" id="map4"></div>
+<p>
+<span class="bold">Ora di inizio: </span>9:00</p>
+<p>
+<span class="bold">Indirizzo: </span>Via Punta di Ferro, 2</p>
+<p>
+            La fiera ExpoElettronica si svolger&agrave; in padiglioni del Forl&igrave; Fiera dove si posizioneranno circa 200 espositori che daranno la possibilit&agrave; di conoscere le ultime novit&agrave; nel campo dell&rsquo;elettronica e dell&rsquo;informatica. All&rsquo;interno dei padiglioni della fiera il pubblico potr&agrave; spaziare nel mondo dell&rsquo;informatica e dell&rsquo;elettronica, alla ricerca del pezzo d&rsquo;avanguardia o introvabile.
+Il settore informatico-elettronico proporr&agrave; a prezzi concorrenziali hardware e software, usato, nuovo e surplus, mentre nel settore elettronico si potranno trovare strumentazione, utensileria, schede per programmatori, componenti e kit elettronici, alimentatori e molto altro.
+Expo Elettronica metter&agrave; a disposizione dei visitatori una vasta gamma di di articoli di telefonia mobile e fissa, componentistica e utensileria professionale e &lsquo;per il fai da te&rsquo;, piccoli elettrodomestici, home entertainement (videoproiettori DLP, DVD, decoder, consolle e video games, tecnologie digitali), cd e dvd vergini, carte per stampa ed inchiostri ecocompatibili a prezzi concorrenziali.
+Anche quest&rsquo;anno all&rsquo;interno della fiera sar&agrave; possibile scoprire le ultime novit&agrave; sul settore della sicurezza, anche domestica, e del risparmio energetico. Gli interessati potranno conoscere e vedere all&rsquo;opera i vari sistemi di videosorveglianza, pannelli solari e sistemi fotovoltaici. Non mancher&agrave; lo spazio dedicato al mercatino dell&rsquo;usato elettrico-elettronico e l&rsquo;area Disco Show, un spazio dove poter vendere, acquistare, scambiare e farsi valutare dischi, CD e rarit&agrave;, come: il &lsquo;vinile&rsquo; sagomato, colorato, formato picture disc, 33g e 45g, CD, album, singoli, doppi, con copertine apribili, fluorescenti, in rilievo, box commemorativi e limited edition.
+        </p>
+<a class="webSite" href="http://www.expoelettronica.it/">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail4','detail4')" id="hideDetail4">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="FC Sagra" id="5_2015-08-27_2015-08-30">
+<div class="image">
+<img src="http://www.eventsromagna.com/uploads/immagine/2015/07/romagnando-2015_188082.jpg" alt="http://www.eventsromagna.com/uploads/immagine/2015/07/romagnando-2015_188082.jpg"></div>
+<div class="info-event">
+<h3>Romagnando</h3>
+<p class="type">Sagra</p>
+<p class="date">
+<span class="date-start">27/08/2015</span><span class="date-end"> - 
+                                                30/08/2015</span>
+</p>
+<p class="place">Calisese  
+                                            (FC)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail5','showDetail5'); initialize('44.105765','12.309185','map5');" id="showDetail5">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail5">
+<div class="map" id="map5"></div>
+<p>
+<span class="bold">Ora di inizio: </span>23:56</p>
+<p>
+<span class="bold">Indirizzo: </span>Via Cavecchia, 1105</p>
+<p>
+		La giovane Pro Loco Calisese InVita ripropone anche quest&rsquo;anno la sagra "Romagnando &ndash; fra storia e sapori". Un intreccio fra storia locale, dove a prevalere su tutti &egrave; il fiume storico Rubicone, e l&rsquo;arte della buona cucina romagnola. Ravioli, piadina, grigliata sono solo alcuni piatti che lo stand propone nelle serate di festa. Si potr&agrave; anche assaggiare il "fritto bianco": un piatto locale delle usanze contadine preparato solo nei giorni di grande festa! Lo stand aprir&agrave; i battenti anche per il pranzo Domenicale. All&rsquo;interno della sagra vi sar&agrave; la possibilit&agrave; di vedere e conoscere gli attrezzi dell&rsquo;arte contadina e gli animali della fattoria. Tutte le serate saranno allietate da spettacoli in stile romagnolo di interesse sia per i pi&ugrave; piccoli, sia per il pubblico pi&ugrave; adulto. L&rsquo;intera festa si svolge all&rsquo;interno di un grande parco nel centro di Calisese, nella prima periferia di Cesena e l&rsquo;ingresso &egrave; libero e gratuito. 
+
+Programma:
+Gioved&igrave; 27 
+ore 21:00 - Spettacolo di danza del gruppo LINE.OUT "Dance Evolution"
+
+Venerd&igrave; 28 
+ore 21:00 - SGABANAZA "Sorrisi e canzoni"
+
+Sabato 29
+ore 21:00 - Spettacolo di danza del gruppo CASADEI DANZE Cesena
+
+Domenica 30
+ore 12:30 
+PRANZO INSIEME (su prenotazione)
+Tommaso 347-7003685
+Lisa 349-1489311
+
+ore 15:00 
+Camminata al RIFUGIO DI GUERRA in collaborazione con l&rsquo;Associazione Pro Rubicone
+All&rsquo;arrivo visita guidata e piccolo rinfresco
+
+ore 16:00 
+Giochi senza frontiere a cura di AVIS CALISESE e AIDO 
+
+ore 21:00 
+Orchestra "RENZO IL ROSSO"
+
+TUTTE LE SERE ALL'INTERNO DELLA MANIFESTAZIONE POTETE TROVARE:
+
+Accampamento dell&rsquo;Associazione Torcos auBedo teuta Senones: storia, usi e cultura dei popoli che anticamente abitavano la Romagna.
+
+Area allestita a fattoria con esposizione attrezzi agricoli di una volta
+        </p>
+<a class="webSite" href="http://www.caliseseinvita.com/">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail5','detail5')" id="hideDetail5">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="FC Conferenza" id="6_2015-08-31_2015-08-31">
+<div class="image">
+<img src="http://www.eventsromagna.com/images/thumb_noimage.png" alt="http://www.eventsromagna.com/images/thumb_noimage.png"></div>
+<div class="info-event">
+<h3>I suoni dell'anima</h3>
+<p class="type">Conferenza</p>
+<p class="date">
+<span class="date-start">31/08/2015</span><span class="date-end"> - 
+                                                31/08/2015</span>
+</p>
+<p class="place">Forl&igrave;  
+                                            (FC)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail6','showDetail6'); initialize('44.2226836','12.0405449','map6');" id="showDetail6">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail6">
+<div class="map" id="map6"></div>
+<p>
+<span class="bold">Ora di inizio: </span>21:00</p>
+<p>
+<span class="bold">Indirizzo: </span>Piazza Saffi, 1</p>
+<p>
+            Conferenza i suoni dell'anima presso Scuola Olistica Carisma
+
+Serata aperta a Tutti per conoscere il potere del suono delle campane tibetane e per presentare il Corso di armonizzazione corpo/mente con le campane tibetane che avr&agrave; come prima data il 19-20 Settembre.
+La conferenza si terr&agrave; Luned&igrave; 31 Agosto dalle ore 21.
+        </p>
+<a class="webSite" href="http://www.google.com">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail6','detail6')" id="hideDetail6">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+<article class="RA Concerto" id="7_2015-09-07_2015-09-07">
+<div class="image">
+<img src="http://i.ytimg.com/vi/34Hx2SlUOHE/maxresdefault.jpg" alt="http://i.ytimg.com/vi/34Hx2SlUOHE/maxresdefault.jpg"></div>
+<div class="info-event">
+<h3>Ruggero dei Timidi in concerto</h3>
+<p class="type">Concerto</p>
+<p class="date">
+<span class="date-start">07/09/2015</span><span class="date-end"> - 
+                                                07/09/2015</span>
+</p>
+<p class="place">Ravenna  
+                                            (RA)
+                                        </p>
+</div>
+<a class="show-detail" onclick="manageDetail('detail7','showDetail7'); initialize('44.421875','12.229149','map7');" id="showDetail7">
+                                        Visualizza dettagli
+                                    </a>
+<div class="details-event" id="detail7">
+<div class="map" id="map7"></div>
+<p>
+<span class="bold">Ora di inizio: </span>21:00</p>
+<p>
+<span class="bold">Indirizzo: </span>Viale Europa, 1</p>
+<p>
+            Ruggero de I Timidi &egrave; un cantante dalle sonorit&agrave; senza tempo, ma dalle tematiche molto attuali.
+In questo canale propone le sue canzoni, i suoi video, il suo mondo.
+        </p>
+<a class="webSite" href="https://www.youtube.com/user/ruggerodeitimidi/about">
+                                            Visita il sito web
+                                        </a><a class="hide-detail" onclick="manageDetail('showDetail7','detail7')" id="hideDetail7">
+                                            Nascondi dettagli
+                                        </a>
+</div>
+</article>
+</section>
+</div>
+</div>
+</body>
+</html>

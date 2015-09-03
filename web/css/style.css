@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    padding: 20px;
+    width: 90%;
+    min-width: 950px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+p{
+    margin: 5px 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+li{
+    margin: 5px; 
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    font-size: 18px;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+header#title{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header#title h1{
+    margin-left: 30px;
+}
+
+header#title img{
+    width: 150px;
+}
+
+header#title img, header#title h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#left{
+    margin-right: 215px;
+}
+nav#menu{
+    border: black solid 2px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: black;
+}
+
+nav#menu a{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+nav#menu a#groupby-city:hover{
+    color: darkturquoise; 
+}
+
+nav#menu a#groupby-type:hover{
+    color: gold; 
+}
+
+nav#menu a#date-sort:hover{
+    color: limegreen; 
+}
+
+aside#right{
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+}
+
+aside#right div{
+    border: black solid 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+aside#right div ul{
+    padding: 5px;
+}
+
+
+aside#right div input{
+    margin: 5px 15px;
+}
+
+aside#right div h2{
+    line-height: 30px;
+    padding: 5px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+aside#right div#place-filter h2{
+    background-color: darkturquoise;
+}
+
+aside#right div#date-filter h2{
+    background-color: limegreen;
+}
+
+aside#right div#do-filter h2{
+    background-color: gold;
+}
+
+article{
+    padding: 25px;
+    border-bottom: black thin groove;
+}
+
+article img{
+    height: 100px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+div.image{
+    width: 200px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+article div.info-event{
+    display: inline-block;
+    vertical-align: top;
+}
+
+article a.show-detail, article a.hide-detail, a#noFilter{
+    display: inline-block;
+    margin-top: 15px;
+    border: #204d74 1px ridge;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    min-width: 50px;
+    padding: 10px;
+}
+
+a#noFilter{
+    display: block;
+    text-align: center;
+    background-color: #F75C50;
+    border: black solid 2px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input#apply{
+    background-color: #cc99ff;
+    color: black;
+    width: 100%;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding:10px;
+    font-size: 14px;
+}
+input#apply:hover, a#noFilter:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+article a.show-detail:hover, article a.hide-detail:hover{
+    color: #F75C50;
+    cursor: pointer;
+}
+
+article a.show-detail{
+    float: right;
+}
+
+article a.go-detail:hover{
+    background-color: #b0c4de;
+    cursor: pointer;
+}
+.map {
+  width: 400px;
+  height: 200px;
+  background-color: #CCC;
+  float: right;
+  margin-left: 15px;
+  border: black double thin;
+}
+
+div.details-event {
+    display: none;
+    margin-top: 20px;
+    min-height: 200px;
+}
+
+a.webSite{
+    display: block;
+}
+
+p.city-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkturquoise;
+    border-radius: 5px;
+}
+
+p.type-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+h2 ~ p{
+    margin-left: 10px;
+}
+p input{
+    margin: 5px;
+}

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT event-list (event)+>
+
+<!ELEMENT event (title|period|type|location|description|webSite?|image)+>
+
+<!ATTLIST event
+    id CDATA #REQUIRED
+  >
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT period (start|end)+>
+<!ELEMENT start (date|time)+>
+<!ELEMENT date (year|month|day)+>
+
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+
+<!ELEMENT time (hour|minute)+>
+
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+
+<!ELEMENT end (date)+>
+
+<!ELEMENT type (#PCDATA)>
+
+<!ELEMENT location (address|number|city|district|map)+>
+
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT district (#PCDATA)>
+
+<!ELEMENT map (lat|long)+>
+<!ELEMENT lat (#PCDATA)>
+<!ELEMENT long (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT webSite (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+
+<!ENTITY CC "Concerto">
+<!ENTITY CF "Conferenza">
+<!ENTITY MO "Mostra">
+<!ENTITY FI "Fiera">
+<!ENTITY SA "Sagra">
+<!ENTITY SP "Spettacolo">
+
+<!ENTITY RA "RA">
+<!ENTITY FC "FC">
+<!ENTITY RN "RN">

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE event-list SYSTEM "events.dtd">
+
+<event-list>
+    
+    <event id="1">
+        <title>Linea 77 in concerto</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>07</month>
+                    <day>31</day>
+                </date>
+                <time>
+                    <hour>21</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>07</month>
+                    <day>31</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&CC;</type>
+        <location>
+            <address>Viale Europa</address>
+            <number>1</number>
+            <city>Ravenna</city>
+            <district>&RA;</district>
+            <map>
+                <lat>44.421875</lat>
+                <long>12.229149</long>
+            </map>
+        </location>
+        <description>
+            I Linea 77 sono un gruppo musicale alternative metal italiano, formatosi nel 1993 a Venaria Reale (Torino).
+            La loro musica è fortemente influenzata da quella di famosi gruppi statunitensi quali Deftones, Rage Against the Machine e Helmet.
+        </description>
+        <webSite>http://www.linea77.com/</webSite>
+        <image>http://www.linea77.com/wp-content/uploads/2014/02/Linea77-940x470.jpg</image>
+    </event>
+    
+    <event id="2">
+        <title>Rimini Jamboree</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>29</day>
+                </date>
+                <time>
+                    <hour>21</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>29</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&SP;</type>
+        <location>
+            <address>Piazza Malatesta</address>
+            <number>1</number>
+            <city>Rimini</city>
+            <district>&RN;</district>
+            <map>
+                <lat>44.0598555</lat>
+                <long>12.5641589</long>
+            </map>
+        </location>
+        <description>
+            Atti Matti, compagnia di improvvisazione teatrale, è lieta di presentare "Rimini Jamboree". Il 29 agosto a Castel Sismondo una serata dedicata agli anni 50' per uno spettacolo totalmente improvvisato. Una rievocazione unica nel suo genere e mai vista a Rimini, dove stile cultura arte e musica si mescolano per dare origine a una serata indimenticabile. 
+Come sempre il pubblico sarà parte integrante dello spettacolo regalandoci spunti e suggerimenti. 
+
+Special Gest della serata il gruppo Rockabilly “Pepper Blondes”, trio vocale femminile tutto riminese, che con la loro bravura e simpatia darà il via al finale di serata con un concerto indimenticabile all’insegna dei meravigliosi anni ’50. 
+La serata è a tema, è consigliabile un look anni 50'. Inoltre, AttiMatti ha indetto un concorso fotografico a premi, si potrà partecipare pubblicando una foto che ricordi i mitici anni sulla pagina dell'evento Facebook dedicato (https://www.facebook.com/events/1034906113194669/) 
+La foto che riceverà più like vincerà uno dei premi messi in palio. 
+Maggiori informazioni sul sito: http://www.attimatti.it 
+Il costo della serata è di 10 euro, ricavato andrà in beneficenza alla Caritas.Inizio spettacolo ore 21:00 
+
+Attori: Federica Lucchese, Lara Bianconi, Fabio Magnani, Marco Mussoni, Sergio Sansone, Alessandro Lombardini, Elisabetta Incanti, Tommaso Bottalico, Marco Volanti.
+        </description>
+        <webSite>http://www.attimatti.it/rimini-jamboree/</webSite>
+        <image>http://www.eventsromagna.com/uploads/immagine/2015/08/rimini-jamboree.jpg</image>
+    </event>
+    
+    <event id="3">
+        <title>Ritratti e volti del passato</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>28</day>
+                </date>
+                <time>
+                    <hour>19</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>09</month>
+                    <day>14</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&MO;</type>
+        <location>
+            <address>via Anfiteatro</address>
+            <number>2</number>
+            <city>Rimini</city>
+            <district>&RN;</district>
+            <map>
+                <lat>44.060989</lat>
+                <long>12.573314</long>
+            </map>
+        </location>
+        <description>
+            Inaugura venerdì 28 agosto la mostra: ‘Ritratti e volti del passato’ al Pala de Andrè di Ravenna. Oltre sessanta dipinti, a partire dalla seconda metà XV secolo fino al XIX secolo, svelano l’operato di artisti durante un arco vastissimo di tempo, circa 400 anni, ricco di conflitti ma anche di dibattiti e cambiamenti. Un’interessante indagine sul ‘ritratto’, o meglio sulla ‘cultura’ del ritrarre, dalla scuola di Caravaggio ai fiamminghi, dalla scuola romana a quella emiliana, dal ritratto francese al paesaggio veneto, tra gli altri.
+        </description>
+        <webSite>http://www.romagnagazzette.com/2015/08/26/ravenna-inaugura-la-mostra-ritratti-e-volti-del-passato-nella-mostra-palazzo-mauro-de-andre-oltre-sessanta-i-dipinti-ospitati/</webSite>
+        <image>http://www.artevista.eu/arte-cultura/wp-content/uploads/2015/08/testa-di-vecchio-cailot.jpg</image>
+    </event>
+    
+    <event id="4">
+        <title>Fiera dell'elettronica a Forlì</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2016</year>
+                    <month>06</month>
+                    <day>07</day>
+                </date>
+                <time>
+                    <hour>9</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2016</year>
+                    <month>08</month>
+                    <day>16</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&FI;</type>
+        <location>
+            <address>Via Punta di Ferro</address>
+            <number>2</number>
+            <city>Forlì</city>
+            <district>&FC;</district>
+            <map>
+                <lat>44.2418822</lat>
+                <long>12.0784182</long>
+            </map>
+        </location>
+        <description>
+            La fiera ExpoElettronica si svolgerà in padiglioni del Forlì Fiera dove si posizioneranno circa 200 espositori che daranno la possibilità di conoscere le ultime novità nel campo dell’elettronica e dell’informatica. All’interno dei padiglioni della fiera il pubblico potrà spaziare nel mondo dell’informatica e dell’elettronica, alla ricerca del pezzo d’avanguardia o introvabile.
+Il settore informatico-elettronico proporrà a prezzi concorrenziali hardware e software, usato, nuovo e surplus, mentre nel settore elettronico si potranno trovare strumentazione, utensileria, schede per programmatori, componenti e kit elettronici, alimentatori e molto altro.
+Expo Elettronica metterà a disposizione dei visitatori una vasta gamma di di articoli di telefonia mobile e fissa, componentistica e utensileria professionale e ‘per il fai da te’, piccoli elettrodomestici, home entertainement (videoproiettori DLP, DVD, decoder, consolle e video games, tecnologie digitali), cd e dvd vergini, carte per stampa ed inchiostri ecocompatibili a prezzi concorrenziali.
+Anche quest’anno all’interno della fiera sarà possibile scoprire le ultime novità sul settore della sicurezza, anche domestica, e del risparmio energetico. Gli interessati potranno conoscere e vedere all’opera i vari sistemi di videosorveglianza, pannelli solari e sistemi fotovoltaici. Non mancherà lo spazio dedicato al mercatino dell’usato elettrico-elettronico e l’area Disco Show, un spazio dove poter vendere, acquistare, scambiare e farsi valutare dischi, CD e rarità, come: il ‘vinile’ sagomato, colorato, formato picture disc, 33g e 45g, CD, album, singoli, doppi, con copertine apribili, fluorescenti, in rilievo, box commemorativi e limited edition.
+        </description>
+        <webSite>http://www.expoelettronica.it/</webSite>
+        <image>http://www.folug.org/wp-content/uploads/2012/05/WEB_FO12.jpg</image>
+    </event>
+    
+    <event id="5">
+        <title>Romagnando</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>27</day>
+                </date>
+                <time>
+                    <hour>23</hour>
+                    <minute>56</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>30</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&SA;</type>
+        <location>
+            <address>Via Cavecchia</address>
+            <number>1105</number>
+            <city>Calisese</city>
+            <district>&FC;</district>
+            <map>
+                <lat>44.105765</lat>
+                <long>12.309185</long>
+            </map>
+        </location>
+        <description>
+		La giovane Pro Loco Calisese InVita ripropone anche quest’anno la sagra "Romagnando – fra storia e sapori". Un intreccio fra storia locale, dove a prevalere su tutti è il fiume storico Rubicone, e l’arte della buona cucina romagnola. Ravioli, piadina, grigliata sono solo alcuni piatti che lo stand propone nelle serate di festa. Si potrà anche assaggiare il "fritto bianco": un piatto locale delle usanze contadine preparato solo nei giorni di grande festa! Lo stand aprirà i battenti anche per il pranzo Domenicale. All’interno della sagra vi sarà la possibilità di vedere e conoscere gli attrezzi dell’arte contadina e gli animali della fattoria. Tutte le serate saranno allietate da spettacoli in stile romagnolo di interesse sia per i più piccoli, sia per il pubblico più adulto. L’intera festa si svolge all’interno di un grande parco nel centro di Calisese, nella prima periferia di Cesena e l’ingresso è libero e gratuito. 
+
+Programma:
+Giovedì 27 
+ore 21:00 - Spettacolo di danza del gruppo LINE.OUT "Dance Evolution"
+
+Venerdì 28 
+ore 21:00 - SGABANAZA "Sorrisi e canzoni"
+
+Sabato 29
+ore 21:00 - Spettacolo di danza del gruppo CASADEI DANZE Cesena
+
+Domenica 30
+ore 12:30 
+PRANZO INSIEME (su prenotazione)
+Tommaso 347-7003685
+Lisa 349-1489311
+
+ore 15:00 
+Camminata al RIFUGIO DI GUERRA in collaborazione con l’Associazione Pro Rubicone
+All’arrivo visita guidata e piccolo rinfresco
+
+ore 16:00 
+Giochi senza frontiere a cura di AVIS CALISESE e AIDO 
+
+ore 21:00 
+Orchestra "RENZO IL ROSSO"
+
+TUTTE LE SERE ALL'INTERNO DELLA MANIFESTAZIONE POTETE TROVARE:
+
+Accampamento dell’Associazione Torcos auBedo teuta Senones: storia, usi e cultura dei popoli che anticamente abitavano la Romagna.
+
+Area allestita a fattoria con esposizione attrezzi agricoli di una volta
+        </description>
+        <webSite>http://www.caliseseinvita.com/</webSite>
+        <image>http://www.eventsromagna.com/uploads/immagine/2015/07/romagnando-2015_188082.jpg</image>
+    </event>
+    
+    <event id="6">
+        <title>I suoni dell'anima</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>31</day>
+                </date>
+                <time>
+                    <hour>21</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>08</month>
+                    <day>31</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&CF;</type>
+        <location>
+            <address>Piazza Saffi</address>
+            <number>1</number>
+            <city>Forlì</city>
+            <district>&FC;</district>
+            <map>
+                <lat>44.2226836</lat>
+                <long>12.0405449</long>
+            </map>
+        </location>
+        <description>
+            Conferenza i suoni dell'anima presso Scuola Olistica Carisma
+
+Serata aperta a Tutti per conoscere il potere del suono delle campane tibetane e per presentare il Corso di armonizzazione corpo/mente con le campane tibetane che avrà come prima data il 19-20 Settembre.
+La conferenza si terrà Lunedì 31 Agosto dalle ore 21.
+        </description>
+        <webSite>http://www.google.com</webSite>
+        <image>http://www.eventsromagna.com/images/thumb_noimage.png</image>
+    </event>
+    
+    <event id="7">
+        <title>Ruggero dei Timidi in concerto</title>
+        <period>  
+            <start>
+                <date>
+                    <year>2015</year>
+                    <month>09</month>
+                    <day>07</day>
+                </date>
+                <time>
+                    <hour>21</hour>
+                    <minute>00</minute>
+                </time>
+            </start>
+            <end>
+                <date>
+                    <year>2015</year>
+                    <month>09</month>
+                    <day>07</day>
+                </date>
+            </end>
+        </period>
+
+        <type>&CC;</type>
+        <location>
+            <address>Viale Europa</address>
+            <number>1</number>
+            <city>Ravenna</city>
+            <district>&RA;</district>
+            <map>
+                <lat>44.421875</lat>
+                <long>12.229149</long>
+            </map>
+        </location>
+        <description>
+            Ruggero de I Timidi è un cantante dalle sonorità senza tempo, ma dalle tematiche molto attuali.
+In questo canale propone le sue canzoni, i suoi video, il suo mondo.
+        </description>
+        <webSite>https://www.youtube.com/user/ruggerodeitimidi/about</webSite>
+        <image>http://i.ytimg.com/vi/34Hx2SlUOHE/maxresdefault.jpg</image>
+    </event>
+    
+</event-list>
